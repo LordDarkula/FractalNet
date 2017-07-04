@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[   3250872,      53819]
-NotebookOptionsPosition[   3247880,      53741]
-NotebookOutlinePosition[   3248264,      53758]
-CellTagsIndexPosition[   3248221,      53755]
+NotebookDataLength[   3252928,      53878]
+NotebookOptionsPosition[   3249723,      53796]
+NotebookOutlinePosition[   3250107,      53813]
+CellTagsIndexPosition[   3250064,      53810]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -18189,6 +18189,61 @@ Cell[BoxData[
    3.70811629917665*^9},ExpressionUUID->"88656bca-05e2-4d8b-9bc7-\
 4d1f29ee363d"]
 }, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"JuliaFractalDimension", "[", "c_", "]"}], ":=", 
+  RowBox[{"1", "+", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"Abs", "[", "c", "]"}], "^", "2"}], "/", "4"}], " ", 
+    RowBox[{"Log", "[", "2", "]"}]}]}]}]], "Input",ExpressionUUID->"d13f47db-\
+7bf8-48a1-b431-d4fa341273ee"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"CreateJuliaFractals", "[", "hsize_", "]"}], ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"jFunction", "=", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"JuliaSetPlot", "[", "#", "]"}], ",", "#"}], "}"}], "&"}]}],
+       ",", "jFractals"}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"jFractals", "=", 
+      RowBox[{"jFuncion", "/@", 
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"RandomReal", "[", 
+          RowBox[{
+           RowBox[{"-", "1"}], ",", "1"}], "]"}], ",", "hsize"}], "]"}]}]}], 
+     ";", "\[IndentingNewLine]", 
+     RowBox[{"jFractals", "=", 
+      RowBox[{"Union", "[", 
+       RowBox[{"jFractals", ",", 
+        RowBox[{"jFunction", "/@", 
+         RowBox[{"Table", "[", 
+          RowBox[{
+           RowBox[{"RandomComplex", "[", "]"}], ",", "hsize"}], "]"}]}]}], 
+       "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"#", "[", 
+         RowBox[{"[", "1", "]"}], "]"}], "\[Rule]", 
+        RowBox[{"JuliaFractalDimension", "[", 
+         RowBox[{"#", "[", 
+          RowBox[{"[", "2", "]"}], "]"}], "]"}]}], "&"}], "/@", 
+      "jFractals"}]}]}], "\[IndentingNewLine]", "]"}]}]], "Input",
+ CellChangeTimes->{{3.7081712468909683`*^9, 3.708171418150034*^9}, {
+   3.7081714555694847`*^9, 3.708171533599044*^9}, 
+   3.708171587259199*^9},ExpressionUUID->"c429afef-45c8-4cf2-b15a-\
+004217a304ec"],
 
 Cell[CellGroupData[{
 
@@ -53794,30 +53849,34 @@ Cell[1088784, 18171, 362, 7, 63, "Input", "ExpressionUUID" -> \
 Cell[1089149, 18180, 416, 9, 63, "Output", "ExpressionUUID" -> \
 "88656bca-05e2-4d8b-9bc7-4d1f29ee363d"]
 }, Open  ]],
+Cell[1089580, 18192, 320, 9, 63, "Input", "ExpressionUUID" -> \
+"d13f47db-7bf8-48a1-b431-d4fa341273ee"],
+Cell[1089903, 18203, 1517, 42, 228, "Input", "ExpressionUUID" -> \
+"c429afef-45c8-4cf2-b15a-004217a304ec"],
 Cell[CellGroupData[{
-Cell[1089602, 18194, 326, 8, 63, "Input", "ExpressionUUID" -> \
+Cell[1091445, 18249, 326, 8, 63, "Input", "ExpressionUUID" -> \
 "a976c870-035a-4a96-be31-a845d3702e8a"],
-Cell[1089931, 18204, 849568, 13991, 2788, "Output", "ExpressionUUID" -> \
+Cell[1091774, 18259, 849568, 13991, 2788, "Output", "ExpressionUUID" -> \
 "b08bb208-056f-4015-9d61-1511bc0ef599"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1939536, 32200, 338, 8, 63, "Input", "ExpressionUUID" -> \
+Cell[1941379, 32255, 338, 8, 63, "Input", "ExpressionUUID" -> \
 "a5d947c0-f3dd-4bc7-83d9-df46a6b432b5"],
-Cell[1939877, 32210, 1153693, 18974, 2896, "Output", "ExpressionUUID" -> \
+Cell[1941720, 32265, 1153693, 18974, 2896, "Output", "ExpressionUUID" -> \
 "bb71c9ae-0ae5-4797-8f7a-dfebc1325c0b"]
 }, Open  ]],
-Cell[3093585, 51187, 485, 12, 63, "Input", "ExpressionUUID" -> \
+Cell[3095428, 51242, 485, 12, 63, "Input", "ExpressionUUID" -> \
 "5d7cda3c-1a89-404c-ae91-a39acfc16543"],
 Cell[CellGroupData[{
-Cell[3094095, 51203, 240, 5, 63, "Input", "ExpressionUUID" -> \
+Cell[3095938, 51258, 240, 5, 63, "Input", "ExpressionUUID" -> \
 "d6df2f56-1a98-4e66-bb7a-8ab452e4c11e"],
-Cell[3094338, 51210, 153152, 2514, 732, "Output", "ExpressionUUID" -> \
+Cell[3096181, 51265, 153152, 2514, 732, "Output", "ExpressionUUID" -> \
 "854ef6be-d4d7-4bb1-8cdd-0909e5d6fe6d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3247527, 53729, 160, 3, 68, "Subsubsection", "ExpressionUUID" -> \
+Cell[3249370, 53784, 160, 3, 68, "Subsubsection", "ExpressionUUID" -> \
 "623023dd-ed0c-41e7-938f-ac9203e558c9"],
-Cell[3247690, 53734, 162, 3, 60, "Text", "ExpressionUUID" -> \
+Cell[3249533, 53789, 162, 3, 60, "Text", "ExpressionUUID" -> \
 "25ef9783-e4d3-407d-9ac4-4b2e34e88467"]
 }, Open  ]]
 }, Open  ]]
