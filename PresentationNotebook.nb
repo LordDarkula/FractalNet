@@ -1,0 +1,152 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      4783,        144]
+NotebookOptionsPosition[      3454,        102]
+NotebookOutlinePosition[      3810,        118]
+CellTagsIndexPosition[      3767,        115]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[StyleBox["[[Project Title]]",
+ FontColor->GrayLevel[1]]], "Section",
+ CellChangeTimes->{{3.583107615045533*^9, 3.5831076156347322`*^9}, {
+  3.583107769411003*^9, 3.583107770887882*^9}, {3.676900801468212*^9, 
+  3.6769008204587507`*^9}, {3.708339004165366*^9, 3.708339007019346*^9}},
+ TextAlignment->Center,
+ Background->RGBColor[
+  1, 0.5, 0],ExpressionUUID->"f178fff7-73f0-474e-a365-e24ce70e6361"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+[[Name]]
+Wolfram High School Summer Camp 2017\
+\>", "Subsection",
+ CellChangeTimes->{{3.583107811679845*^9, 3.583107818495682*^9}, {
+  3.614076250921157*^9, 3.614076251309596*^9}, {3.614076365379232*^9, 
+  3.6140763657428102`*^9}, {3.645808277751647*^9, 3.6458082808404527`*^9}, {
+  3.675433594417021*^9, 3.675433596359215*^9}, {3.6769007306979823`*^9, 
+  3.67690073739382*^9}, {3.708338880050069*^9, 3.708338896392001*^9}},
+ TextAlignment->Center,ExpressionUUID->"9237ad7f-c3e5-46a8-8397-27a7eeb61bd6"],
+
+Cell["[[Project Description]]", "Text",
+ CellChangeTimes->{{3.5831079212333317`*^9, 3.5831079344389668`*^9}, 
+   3.6769008390491695`*^9, {3.708338911817368*^9, 
+   3.7083389163510523`*^9}},ExpressionUUID->"51dc87f1-7c71-48d5-805f-\
+d4f79d4149de"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Initialization code",
+ FontColor->GrayLevel[1]]], "Section",
+ InitializationGroup->True,
+ CellChangeTimes->{{3.58310782932751*^9, 3.583107831710331*^9}},
+ TextAlignment->Center,
+ Background->RGBColor[1, 0.5, 0]],
+
+Cell["\<\
+Please put any initialization code in the following section. Delete section \
+if not needed.:\
+\>", "Text",
+ InitializationGroup->True,
+ CellChangeTimes->{{3.5831078394329853`*^9, 3.58310787878909*^9}, {
+  3.645826174306422*^9, 3.645826175538824*^9}, {3.6754336169292717`*^9, 
+  3.675433624377016*^9}}],
+
+Cell[BoxData[""], "Input",
+ InitializationCell->True,
+ CellChangeTimes->{{3.7083389272829742`*^9, 3.7083389278628273`*^9}, {
+   3.7083389758368587`*^9, 3.708338984108374*^9}, 
+   3.708339062840784*^9},ExpressionUUID->"e2c7fea1-2a6f-4ef8-9c1d-\
+a61f99de7ce3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Project", "Section",
+ CellChangeTimes->{{3.583107893296578*^9, 3.583107894085239*^9}},
+ TextAlignment->Center,
+ FontColor->GrayLevel[1],
+ Background->RGBColor[1, 0.5, 0]],
+
+Cell["\<\
+This section should contain your code and a link to your cloud deployed \
+object.\
+\>", "Text",
+ CellChangeTimes->{{3.583107903880073*^9, 3.5831079118950987`*^9}, {
+   3.645799700277796*^9, 3.6457997116884484`*^9}, {3.6458083047240944`*^9, 
+   3.6458083079221*^9}, 3.676900882546861*^9, {3.676900913133574*^9, 
+   3.6769009365684185`*^9}},ExpressionUUID->"57600195-39f0-4906-ae72-\
+6ae64f32d880"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.708338967522975*^9, 3.708338999515728*^9}, 
+   3.708339060466655*^9},ExpressionUUID->"259e9ef2-5885-4fa9-a0d3-\
+cac3bae6828f"]
+}, Open  ]]
+},
+WindowSize->{740, 674},
+WindowMargins->{{186, Automatic}, {Automatic, 76}},
+FrontEndVersion->"11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 16, \
+2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 412, 7, 68, "Section", "ExpressionUUID" -> \
+"f178fff7-73f0-474e-a365-e24ce70e6361"],
+Cell[CellGroupData[{
+Cell[1016, 33, 513, 9, 69, "Subsection", "ExpressionUUID" -> \
+"9237ad7f-c3e5-46a8-8397-27a7eeb61bd6"],
+Cell[1532, 44, 246, 4, 30, "Text", "ExpressionUUID" -> \
+"51dc87f1-7c71-48d5-805f-d4f79d4149de"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1827, 54, 235, 5, 68, "Section", "ExpressionUUID" -> \
+"d5a568af-76ad-4fd4-828d-d8b4bf645d71",
+ InitializationGroup->True],
+Cell[2065, 61, 312, 7, 30, "Text", "ExpressionUUID" -> \
+"dd637053-15aa-476a-b73c-2c273b009302",
+ InitializationGroup->True],
+Cell[2380, 70, 258, 5, 48, "Input", "ExpressionUUID" -> \
+"e2c7fea1-2a6f-4ef8-9c1d-a61f99de7ce3",
+ InitializationCell->True]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2675, 80, 176, 4, 68, "Section", "ExpressionUUID" -> \
+"cd0fb4b3-615c-4113-ad21-ffa8e8d86871"],
+Cell[2854, 86, 406, 8, 30, "Text", "ExpressionUUID" -> \
+"57600195-39f0-4906-ae72-6ae64f32d880"],
+Cell[3263, 96, 175, 3, 32, "Input", "ExpressionUUID" -> \
+"259e9ef2-5885-4fa9-a0d3-cac3bae6828f"]
+}, Open  ]]
+}
+]
+*)
+
