@@ -6,7 +6,7 @@ I decided to use an image of a fractal as the input, and the dimension as the ou
 ### Wikipedia
 Wikipedia has a set of fractal images, as well the corresponding fractal dimensions. I looked through them to pick the ones with high quality images for my training set, however it was not enough.
 ### Randomly Generated Julia Sets
-I chose to generate random Julia Sets, as there is a built in function for it in Wolfram Language. I generated Julia Sets with random c values, both real and complex, to give the sets some variety.
+I chose to generate random Julia Sets, as there is a built in function for it in Wolfram Language. Julia Sets have a single parameter called c, and changing it generates unique fractals. I generated Julia Sets with random c values, both real and complex, to give the sets some variety.
 
     CreateJuliaFractals[size_] :=
         Module[{jFunction = {JuliaSetPlot[#], #} &, jFractals},
@@ -38,6 +38,9 @@ I created a micro site in which people can put in pictures of any fractal and ge
         AppearanceRules -> <|"Title" ->     "Predict Fractal Dimension"|>],
         Permissions -> "Public"]
 
+## Conclusion
+Before doing this project, I had no idea what fractal dimension was, and I learned many things including data generation and continuous classification. In the future I hope to use iterated function system to generate more fractals.
+
 Visit the micro site [here](https://www.wolframcloud.com/objects/7102eabb-7b80-4bb1-9652-eebcd75e90cd).
 
-Link to source code [here](https://github.com/LordDarkula/FractalNet).
+Link to community post [here](http://community.wolfram.com/groups/-/m/t/1140551).
